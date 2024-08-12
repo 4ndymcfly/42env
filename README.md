@@ -1,5 +1,5 @@
 
-|![42_env_banner](https://github.com/user-attachments/assets/2d6c9bbb-c86b-4f41-b902-d40803f4b080)|
+|<img src=img/42_env_banner.png alt="header_logo" align="center">|
 |---|
 
 # 42 Environment Configuration Script for [Ubuntu 22.04 LTS or + ](https://releases.ubuntu.com/jammy/)
@@ -27,6 +27,21 @@ Este script instala el siguiente software en el caso de que no esté instalado:
 **IMPORTANTE:** Antes de comenzar el proceso se recomienda hacer copia de seguridad o un snapshot del estado actual de la máquina virtual.
 
 ## Instalación
+
+|<img src=img/001.png alt="header_logo" align="center">|
+|---|
+
+Primero descargamos el repositorio y entramos en la carpeta 42env del repositorio clonado.
+```bash
+git clone https://github.com/4ndymcfly/42env.git ; cd 42env
+```
+Ahora asignaermos permisos de ejecución al script y lo ejecutaremos. Se recomienda tener siempre maximizada la ventana de la shell.
+```bash
+chmod +x 42env.sh ; ./42env.sh
+```
+|<img src=img/002_install_log.png alt="header_logo" align="center">|
+|---|
+
 
 
 
