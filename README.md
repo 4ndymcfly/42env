@@ -3,7 +3,7 @@
 |---|
 
 # 42 Environment Configuration Script for [Ubuntu 22.04 LTS or + ](https://releases.ubuntu.com/jammy/)
-Automatiza la instalación y configuración del entorno básico necesario para programar en el cursus de 42.
+Automatiza la instalación y configuración del entorno básico necesario para programar en el cursus de 42 + extras.
 
 ## Software
 
@@ -43,9 +43,23 @@ chmod +x 42env.sh ; ./42env.sh
 |<img src=img/002_install_log.png alt="header_logo" align="center">|
 |---|
 
+Una vez que haya terminado todo el proceso. Pulsaremos la tecla `Enter` y se reiniciará el equipo.
+Una vez arrancado el sistema pulsaremos en el nuevo icono de 'kitty', maximizaremos la ventana y ejecutaremos 'nvim'.
+```bash
+nvim
+```
+|<img src=img/003_kitty_term.png alt="header_logo" align="center">|
+|---|
 
+Si no pulsamos con el ratón en la ventana de instalación, puede que el instalador nos pida que pulsemos una tecla. Si es tu caso pulsa la tecla `espacio`, la configuración continuará y acabará cuando nos solicite que pulsemos `enter`.
 
+|<img src=img/004_lazyvim_install.png alt="header_logo" align="center" width="500">|<img src=img/005_lazyvim_install_2.png alt="header_logo" align="center" width="500">|
+|---|---|
 
+Esperamos unos instantes y ya tenemos LazyVim preparado y con todo configurado para comenzar.
+
+|<img src=img/006_lazyvim_install_3.png alt="header_logo" align="center">|
+|---|
 
 
 
