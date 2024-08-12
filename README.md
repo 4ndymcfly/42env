@@ -98,6 +98,8 @@ En LazyVim tenemos definidas 6 teclas principales para el uso diario:
 #### Tecla `F6` > Abre-Cierra el explorador de archivos
 <img src=img/014_nvim_explorer.png alt="header_logo" align="center">
 
+#### Cada archivo que se abra lo hará en pestañas distintas, de este modo podremos tener varios archivos abiertos e ir cambianddo entre ellos de una manera muy cómoda.
+
 |Todos los demás atajos de `vim` funcionan igual.|
 |---|
 
