@@ -63,5 +63,27 @@ Esperamos unos instantes y ya tenemos LazyVim preparado y con todo configurado p
 |<img src=img/006_lazyvim_install_3.png alt="header_logo" align="center">|
 |---|
 
+## Uso básico de LazyVim
+
+En LazyVim tenemos definidas 6 teclas principales para el uso diario:
+
+#### Tecla `F1` > Inserta el header de 42, hace un retorno de carro y pone el editor en modo `Insert`
+<img src=img/008_header_42.png alt="header_logo" align="center">
+
+#### Tecla `F2` > Formatea el código para presentarla a la norminette
+|<img src=img/010_example_code.png alt="header_logo" align="center" width="500">|<img src=img/012_fix_errors.png alt="header_logo" align="center" width="600">|
+|---|---|
+
+#### Tecla `F3` > Ejecuta norminette con las flags `-R CheckForbiddenSourceHeader`
+<img src=img/011_errors_norminette.png alt="header_logo" align="center">
+
+#### Tecla `F4` > Cierra la ventana activa / Cierra 'nvim' / Equivale a `:q`
+
+#### Tecla `F5` > Guarda el documento activo / Equivale a `:w`
+
+#### Tecla `F6` > Abre-Cierra el explorador de archivos
+<img src=img/014_nvim_explorer.png alt="header_logo" align="center">
+
+
 
 
