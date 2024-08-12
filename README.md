@@ -157,4 +157,8 @@ picture imagen.jpg
 ### Pestañas
 <img src=img/017_kitty_example_02.png alt="header_logo" align="center">
 
+# En proceso...
+Próximamente intentaré publicar el proyecto con un configuracion alternativa para su ejecución en usuarios con permisos limitados. Toda mejora es bienvenida.
+#### Gracias!
+
 
