@@ -200,6 +200,12 @@ sleep 2
 print_ok
 
 print_info "Instalando y configurando LazyVim + plugins..."
+# Copia si existen de los archivos actuales de Neovim
+mv ~/.config/nvim{,.bak} > /dev/null 2>&1
+mv ~/.local/share/nvim{,.bak} > /dev/null 2>&1
+mv ~/.local/state/nvim{,.bak} > /dev/null 2>&1
+mv ~/.cache/nvim{,.bak} > /dev/null 2>&1
+
 git clone https://github.com/LazyVim/starter ~/.config/nvim > /dev/null 2>&1
 rm -rf ~/.config/nvim/.git > /dev/null 2>&1
 sleep 3
