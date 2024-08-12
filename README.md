@@ -121,3 +121,28 @@ Lazygit es ideal para quienes prefieren usar la terminal pero quieren una forma 
 </div>
 
 Kitty es una excelente opción si buscas un emulador de terminal que combine velocidad, personalización y funcionalidad avanzada, ideal para usuarios que desean aprovechar al máximo su entorno de trabajo en la terminal.
+
+| Atajo | Descripción |
+| --- | --- |
+| `Ctrl` + `Shift` + `Enter` | Abrir una nueva ventana en el directorio actual |
+| `Ctrl` + `Shift` + `w` | Cierra la terminal o la ventana activa |
+| `Ctrl` + `Shift` + `T` | Abrir una nueva pestaña en el directorio actual |
+| `Ctrl` + `Shift` + `Alt` + `T` | Renombra la pestaña en el directorio actual |
+| `Ctrl` + `←` | Mover a la ventana vecina a la izquierda |
+| `Ctrl` + `→` | Mover a la ventana vecina a la derecha |
+| `Ctrl` + `↑` | Mover a la ventana vecina hacia arriba |
+| `Ctrl` + `↓` | Mover a la ventana vecina hacia abajo |
+| `Ctrl` + `Shift` + `J` | Hacer la ventana más ancha en 5 unidades |
+| `Ctrl` + `Shift` + `L` | Hacer la ventana más estrecha en 5 unidades |
+| `Ctrl` + `Shift` + `I` | Hacer la ventana más alta en 3 unidades |
+| `Ctrl` + `Shift` + `K` | Hacer la ventana más baja en 3 unidades |
+| `Shift` + `Alt` + `↑` | Desplazar al principio del buffer de desplazamiento |
+| `Shift` + `Alt` + `↓` | Desplazar al final del buffer de desplazamiento |
+| `Shift` + `Alt` + `←` | Desplazar una página hacia arriba |
+| `Shift` + `Alt` + `→` | Desplazar una página hacia abajo |
+| `Ctrl` + `Shift` + `Z` | "Zoom" Alternar entre el diseño en mosaico o pantalla completa |
+
+Soporte para imágenes y gráficos: Kitty puede mostrar imágenes directamente en la terminal, lo que es útil para tareas que requieren visualización gráfica sin salir del entorno de línea de comandos. el alias creado es `picture`.
+```bash
+picture imagen.jpg
+```
