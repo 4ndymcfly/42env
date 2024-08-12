@@ -1,6 +1,7 @@
 
-|<img src=img/42_env_banner.png alt="header_logo" align="center">|
-|---|
+<div align="center">
+  <img src="img/42_env_banner.png" alt="header_logo">
+</div>
 
 # 42 ENVironment Configuration Script
 Automatiza la instalación y configuración del entorno básico necesario para programar en el cursus de 42.
@@ -109,5 +110,14 @@ Si por más comodidad queremos ver los permisos de los archivos y carpetas en oc
 
 # LazyGit
 Lazygit es ideal para quienes prefieren usar la terminal pero quieren una forma más cómoda y rápida de manejar Git sin tener que escribir todos los comandos manualmente. Resulta especialmente útil para desarrolladores que trabajan con repositorios grandes y complejos, ya que facilita la visualización de los cambios y permite moverse ágilmente entre las distintas secciones del repositorio.
+#### ¡Por probarlo no pierdes nada!
+<img src=img/021_lazy_git.png alt="header_logo" align="center">
 
+## Terminal
 
+# Kitty
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/57ab74e0-e41a-45fe-b677-cb2799135ff4" alt="Kitty Logo" width="500"/>
+</div>
+
+Kitty es una excelente opción si buscas un emulador de terminal que combine velocidad, personalización y funcionalidad avanzada, ideal para usuarios que desean aprovechar al máximo su entorno de trabajo en la terminal.
