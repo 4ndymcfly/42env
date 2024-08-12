@@ -53,7 +53,7 @@ while true; do sudo -n true; sleep 60; sudo -v; done 2>/dev/null &
 
 echo -ne "${COLOR_TURQUESA}[+] Escribe tu usuario de la intra de 42: ${COLOR_RESET}"
 read USER
-MAIL="${USER}@student.42.fr"
+MAIL="${USER}@student.42malaga.com"
 
 check_and_install() {
     if ! command -v $1 &> /dev/null
