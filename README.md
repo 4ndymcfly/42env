@@ -126,7 +126,9 @@ Lazygit es ideal para quienes prefieren usar la terminal pero quieren una forma 
   <img src="https://github.com/user-attachments/assets/57ab74e0-e41a-45fe-b677-cb2799135ff4" alt="Kitty Logo" width="500"/>
 </div>
 
-Kitty es una excelente opción si buscas un emulador de terminal que combine velocidad, personalización y funcionalidad avanzada, ideal para usuarios que desean aprovechar al máximo su entorno de trabajo en la terminal.
+Kitty es una excelente opción si buscas un emulador de terminal que combine velocidad, personalización y funcionalidad avanzada, ideal para usuarios que desean aprovechar al máximo su entorno de trabajo en la terminal. Permite dividir la pantalla en varias terminales dentro de una misma ventana, facilitando la multitarea sin necesidad de usar múltiples ventanas. Kitty es un proyecto de código abierto con un desarrollo activo, lo que significa que recibe actualizaciones frecuentes y mejoras continuas.
+
+## Atajos principales de teclado:
 
 | Atajo | Descripción |
 | --- | --- |
@@ -134,30 +136,35 @@ Kitty es una excelente opción si buscas un emulador de terminal que combine vel
 | `Ctrl` + `Shift` + `w` | Cierra la terminal o la ventana activa |
 | `Ctrl` + `Shift` + `T` | Abrir una nueva pestaña en el directorio actual |
 | `Ctrl` + `Shift` + `Alt` + `T` | Renombra la pestaña en el directorio actual |
+| `Ctrl` + `Shift` + `→` | Moverse a la pestaña de la derecha |
+| `Ctrl` + `Shift` + `←` | Moverse a la pestaña de la izquierda |
 | `Ctrl` + `←` | Mover a la ventana vecina a la izquierda |
 | `Ctrl` + `→` | Mover a la ventana vecina a la derecha |
 | `Ctrl` + `↑` | Mover a la ventana vecina hacia arriba |
 | `Ctrl` + `↓` | Mover a la ventana vecina hacia abajo |
-| `Ctrl` + `Shift` + `J` | Hacer la ventana más ancha en 5 unidades |
-| `Ctrl` + `Shift` + `L` | Hacer la ventana más estrecha en 5 unidades |
-| `Ctrl` + `Shift` + `I` | Hacer la ventana más alta en 3 unidades |
-| `Ctrl` + `Shift` + `K` | Hacer la ventana más baja en 3 unidades |
+| `Ctrl` + `Shift` + `J` | Hacer la ventana más ancha |
+| `Ctrl` + `Shift` + `L` | Hacer la ventana más estrecha |
+| `Ctrl` + `Shift` + `I` | Hacer la ventana más alta |
+| `Ctrl` + `Shift` + `K` | Hacer la ventana más baja |
 | `Shift` + `Alt` + `↑` | Desplazar al principio del buffer de desplazamiento |
 | `Shift` + `Alt` + `↓` | Desplazar al final del buffer de desplazamiento |
 | `Shift` + `Alt` + `←` | Desplazar una página hacia arriba |
 | `Shift` + `Alt` + `→` | Desplazar una página hacia abajo |
 | `Ctrl` + `Shift` + `Z` | "Zoom" Alternar entre el diseño en mosaico o pantalla completa |
 
+### Imágenes de ejemplo:
+
 <img src=img/017_kitty_example_01.png alt="header_logo" align="center">
 
-Soporte para imágenes y gráficos: Kitty puede mostrar imágenes directamente en la terminal, lo que es útil para tareas que requieren visualización gráfica sin salir del entorno de línea de comandos. el alias creado es `picture`.
+### Soporte para imágenes y gráficos:
+Kitty puede mostrar imágenes directamente en la terminal, lo que es útil para tareas que requieren visualización gráfica sin salir del entorno de línea de comandos. el alias creado es `picture`.
 ```bash
 picture imagen.jpg
 ```
-### Pestañas
+### Pestañas:
 <img src=img/017_kitty_example_02.png alt="header_logo" align="center">
 
-# En proceso...
+# Y en proceso...
 Próximamente intentaré publicar el proyecto con un configuracion alternativa para su ejecución en usuarios con permisos limitados. Toda mejora es bienvenida.
 #### Gracias!
 
