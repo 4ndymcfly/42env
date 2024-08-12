@@ -40,7 +40,7 @@ Primero descargamos el repositorio y entramos en la carpeta 42env del repositori
 ```bash
 git clone https://github.com/4ndymcfly/42env.git ; cd 42env
 ```
-Ahora asignaermos permisos de ejecución al script y lo ejecutaremos. Se recomienda tener siempre maximizada la ventana de la shell.
+Ahora asignaremos permisos de ejecución al script y lo ejecutaremos. Se recomienda tener siempre maximizada la ventana de la shell.
 ```bash
 chmod +x 42env.sh ; ./42env.sh
 ```
