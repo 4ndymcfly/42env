@@ -2,8 +2,10 @@
 |<img src=img/42_env_banner.png alt="header_logo" align="center">|
 |---|
 
-# 42 Environment Configuration Script for [Ubuntu 22.04 LTS or + ](https://releases.ubuntu.com/jammy/)
+# 42 ENVironment Configuration Script
 Automatiza la instalación y configuración del entorno básico necesario para programar en el cursus de 42 + extras.
+|---|
+Testeado en [Ubuntu 22.04 LTS](https://releases.ubuntu.com/jammy/)
 
 ## Software
 
