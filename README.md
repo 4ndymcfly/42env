@@ -47,6 +47,8 @@ chmod +x 42env.sh ; ./42env.sh
 |<img src=img/002_install_log.png alt="header_logo" align="center">|
 |---|
 
+#### Al ejecutar el script te pedirá tu usuario de la intra, escríbelo y pulsa `Enter`. Este usuario se usará para configurar el header de C.
+
 Una vez que haya terminado todo el proceso. Pulsaremos la tecla `Enter` y se reiniciará el equipo.
 Una vez arrancado el sistema pulsaremos en el nuevo icono de 'kitty', maximizaremos la ventana y ejecutaremos 'nvim'.
 ```bash
