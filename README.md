@@ -29,7 +29,7 @@ Este script instala el siguiente software en el caso de que no esté instalado:
 ## Recomendaciones
 
 **IMPORTANTE:** Antes de comenzar el proceso se recomienda hacer copia de seguridad o un snapshot del estado actual de la máquina virtual.
-Este script está pensado para uso en nuestro ordenador personal. Pronto publicaré la versión para usuarios limitados.
+Este script está pensado para uso en nuestro ordenador personal. Pronto publicaré la versión para usuarios limitados y compatibilidad con la mayor distros posibles..
 
 ## Instalación
 
