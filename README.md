@@ -66,6 +66,12 @@ Pulsamos `F4` y cerramos nvim (ya tenemos el acceso de teclado configurado).
 
 ## LazyVim
 
+Si ejecutas `nvim` solamente, sin ningun nombre de archivo, accederás al menu principal de `LazyVim` que te permitirá realizar muchas acciones.
+
+<img src=img/007_lazyvim_install_4_end.png alt="header_logo" align="center">
+
+<img src=img/020_nvim_recent_files.png alt="header_logo" align="center">
+
 # Uso básico de LazyVim
 
 En LazyVim tenemos definidas 6 teclas principales para el uso diario:
@@ -142,7 +148,13 @@ Kitty es una excelente opción si buscas un emulador de terminal que combine vel
 | `Shift` + `Alt` + `→` | Desplazar una página hacia abajo |
 | `Ctrl` + `Shift` + `Z` | "Zoom" Alternar entre el diseño en mosaico o pantalla completa |
 
+<img src=img/017_kitty_example_01.png alt="header_logo" align="center">
+
 Soporte para imágenes y gráficos: Kitty puede mostrar imágenes directamente en la terminal, lo que es útil para tareas que requieren visualización gráfica sin salir del entorno de línea de comandos. el alias creado es `picture`.
 ```bash
 picture imagen.jpg
 ```
+### Pestañas
+<img src=img/017_kitty_example_02.png alt="header_logo" align="center">
+
+
