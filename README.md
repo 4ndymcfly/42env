@@ -20,6 +20,7 @@ Este script instala el siguiente software en el caso de que no esté instalado:
 - **kitty |** [GPU based terminal emulator](https://sw.kovidgoyal.net/kitty/)
 - **nerd fonts |** [Iconic font aggregator, collection, and patcher](https://www.nerdfonts.com/) | Hack Nerd Font
 - **lsd |** [The next gen ls command](https://github.com/lsd-rs/lsd)
+- **lazygit |**[Simple terminal UI for git commands](https://github.com/jesseduffield/lazygit)
 - Atajos de teclado para 'nvim' y config para .zshrc
 
 ## Recomendaciones
