@@ -50,8 +50,6 @@ Una vez arrancado el sistema pulsaremos en el nuevo icono de 'kitty', maximizare
 ```bash
 nvim
 ```
-|<img src=img/003_kitty_term.png alt="header_logo" align="center">|
-|---|
 
 Si no pulsamos con el ratón en la ventana de instalación, puede que el instalador nos pida que pulsemos una tecla. Si es tu caso pulsa la tecla `espacio`, la configuración continuará y acabará cuando nos solicite que pulsemos `enter`.
 
@@ -63,7 +61,11 @@ Esperamos unos instantes y ya tenemos LazyVim preparado y con todo configurado p
 |<img src=img/006_lazyvim_install_3.png alt="header_logo" align="center">|
 |---|
 
-## Uso básico de LazyVim
+Pulsamos `F4` y cerramos nvim (ya tenemos el acceso de teclado configurado).
+
+## LazyVim
+
+# Uso básico de LazyVim
 
 En LazyVim tenemos definidas 6 teclas principales para el uso diario:
 
@@ -77,13 +79,35 @@ En LazyVim tenemos definidas 6 teclas principales para el uso diario:
 #### Tecla `F3` > Ejecuta norminette con las flags `-R CheckForbiddenSourceHeader`
 <img src=img/011_errors_norminette.png alt="header_logo" align="center">
 
-#### Tecla `F4` > Cierra la ventana activa / Cierra 'nvim' / Equivale a `:q`
+#### Tecla `F4` > Cierra la ventana activa / norminette / Cierra 'nvim' / Equivale a `:q`
+|<img src=img/013_norminette_ok.png alt="header_logo" align="center" width="600">|<img src=img/012_fix_errors.png alt="header_logo" align="center" width="600">|
+|---|---|
 
 #### Tecla `F5` > Guarda el documento activo / Equivale a `:w`
 
 #### Tecla `F6` > Abre-Cierra el explorador de archivos
 <img src=img/014_nvim_explorer.png alt="header_logo" align="center">
 
+|Todos los demás atajos de `vim` funcionan igual.|
+|---|
 
+## Extras
+
+# LSD (LSDeluxe)
+La configuración incluye la instalación de LSD ya que considero que le da un plus y mayor legibilidad a la terminal aprovechando que hemos instalado las Nerd Fonts.
+El alias `ll` equivale a:
+```bash
+/usr/bin/lsd -lha --group-dirs=first
+```
+<img src=img/018_lsd_example.png alt="header_logo" align="center">
+
+Si por más comodidad queremos ver los permisos de los archivos y carpetas en octal lo haremos con `llo` que es un alias de:
+```bash
+/usr/bin/lsd -lha --group-dirs=first --permission octal
+```
+<img src=img/019_lsd_example_octal.png alt="header_logo" align="center">
+
+# LazyGit
+Lazygit es ideal para quienes prefieren usar la terminal pero quieren una forma más cómoda y rápida de manejar Git sin tener que escribir todos los comandos manualmente. Resulta especialmente útil para desarrolladores que trabajan con repositorios grandes y complejos, ya que facilita la visualización de los cambios y permite moverse ágilmente entre las distintas secciones del repositorio.
 
 
