@@ -203,13 +203,13 @@ print_ok
 
 print_info "Instalando y configurando LazyVim + plugins..."
 
-# Copia si existen de los archivos actuales de Neovim
+# Backup si existen de los archivos actuales de Neovim
 mv ~/.config/nvim{,.bak} > /dev/null 2>&1
 mv ~/.local/share/nvim{,.bak} > /dev/null 2>&1
 mv ~/.local/state/nvim{,.bak} > /dev/null 2>&1
 mv ~/.cache/nvim{,.bak} > /dev/null 2>&1
 
-# Descarga de diccionarios para NeoVim
+# Descarga de diccionarios para Neovim
 mkdir -p ~/.config/nvim/spell > /dev/null 2>&1
 wget -O ~/.config/nvim/spell/es.utf-8.spl ftp://ftp.vim.org/pub/vim/runtime/spell/es.utf-8.spl > /dev/null 2>&1
 wget -O ~/.config/nvim/spell/es.utf-8.sug ftp://ftp.vim.org/pub/vim/runtime/spell/es.utf-8.sug > /dev/null 2>&1
