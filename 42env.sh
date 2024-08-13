@@ -129,7 +129,9 @@ if ! fc-list | grep -q "$FONT_NAME"; then
     print_info "Instalando Hack Nerd Font..."
     wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Hack.zip -O /tmp/Hack.zip > /dev/null 2>&1
     sudo unzip -q /tmp/Hack.zip -d $FONT_DIR > /dev/null 2>&1
+    sleep 2
     sudo fc-cache -f -v > /dev/null 2>&1
+    sleep 2
     print_ok
 else
     print_installed "Hack Nerd Font ya está instalada."
