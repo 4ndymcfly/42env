@@ -83,8 +83,13 @@ Si no pulsas con el ratón en la ventana de instalación, puede que el instalado
 
 <div align="center">
   <img src="img/004_lazyvim_install.png" alt="lazyvim_install">
+</div>
+<br>
+<div align="center">
   <img src="img/005_lazyvim_install_2.png" alt="lazyvim_install_2">
 </div>
+
+<br>
 
 Espera unos instantes y ya tendrás LazyVim preparado y configurado para comenzar.
 
@@ -92,7 +97,11 @@ Espera unos instantes y ya tendrás LazyVim preparado y configurado para comenza
   <img src="img/006_lazyvim_install_3.png" alt="lazyvim_install_3">
 </div>
 
+<br>
+
 Pulsa `F4` para cerrar nvim (ya tienes el acceso de teclado configurado).
+
+<br>
 
 ## LazyVim
 
@@ -139,8 +148,11 @@ En LazyVim tenemos definidas seis teclas principales para el uso diario:
 </div>
 
 <br>
+<br>
 
 **Tecla `F5`:** Guarda el documento activo / Equivale a `:w`.
+
+<br>
 
 **Tecla `F6`:** Abre o cierra el explorador de archivos.
 
@@ -166,6 +178,8 @@ El alias `ll` equivale a:
 <div align="center">
   <img src="img/018_lsd_example.png" alt="lsd_example">
 </div>
+
+<br>
 
 Para ver los permisos de los archivos y carpetas en octal, usa llo, que es un alias de:
 ```bash
@@ -218,6 +232,8 @@ Kitty es un proyecto de código abierto con un desarrollo activo, lo que signifi
 | `Shift` + `Alt` + `→` | Desplazar una página hacia abajo |
 | `Ctrl` + `Shift` + `Z` | "Zoom" Alternar entre el diseño en mosaico o pantalla completa |
 
+<br>
+
 ### Imágenes de ejemplo:
 
 <div align="center">
@@ -231,6 +247,7 @@ Para usar esta funcionalidad, simplemente usa el comando:
 ```bash
 picture imagen.jpg
 ```
+<br>
 
 `picture`es una alias de:
 ```bash
