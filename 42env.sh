@@ -80,8 +80,8 @@ check_and_install "pip3" "python3-pip"
 check_and_install "gcc" "gcc"
 check_and_install "make" "make"
 check_and_install "zsh" "zsh"
-check_and_install "ripgrep" "ripgrep"
-check_and_install "fd" "fd-find"
+check_and_install "rg" "ripgrep"
+check_and_install "fdfind" "fd-find"
 check_and_install "luarocks" "luarocks"
 
 #Instalaciones opcionales
