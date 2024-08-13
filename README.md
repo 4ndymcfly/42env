@@ -8,6 +8,25 @@ Automatiza la instalación y configuración del entorno básico necesario para p
 |---|
 Testeado en [Ubuntu 22.04 LTS](https://releases.ubuntu.com/jammy/)
 
+<!-- Índice -->
+# Índice
+
+1. [Software](#software)
+2. [Recomendaciones](#recomendaciones)
+3. [Instalación](#instalación)
+4. [Durante la ejecución](#durante-la-ejecución)
+5. [LazyVim](#lazyvim)
+6. [Uso básico de LazyVim](#uso-básico-de-lazyvim)
+7. [Extras](#extras)
+    - [LSD (LSDeluxe)](#lsd-lsdeluxe)
+    - [LazyGit](#lazygit)
+8. [Kitty-Terminal](#kitty-terminal)
+    - [Atajos principales de teclado](#atajos-principales-de-teclado)
+    - [Imágenes de ejemplo](#imágenes-de-ejemplo)
+    - [Soporte para imágenes y gráficos](#soporte-para-imágenes-y-gráficos)
+    - [Pestañas](#pestañas)
+9. [En proceso...](#en-proceso)
+
 ## Software
 
 Este script instala el siguiente software en el caso de que no esté instalado:
@@ -29,111 +48,153 @@ Este script instala el siguiente software en el caso de que no esté instalado:
 ## Recomendaciones
 
 **IMPORTANTE:** Antes de comenzar el proceso se recomienda hacer copia de seguridad o un snapshot del estado actual de la máquina virtual.
-Este script está pensado para uso en nuestro ordenador personal. Pronto publicaré la versión para usuarios limitados y compatibilidad con la mayor distros posibles..
+Este script está pensado para uso en nuestro ordenador personal. Pronto publicaré la versión para usuarios limitados y con compatibilidad con el mayor número de distribuciones posibles.
 
 ## Instalación
 
-|<img src=img/001.png alt="header_logo" align="center">|
-|---|
+<div align="center">
+  <img src="img/001.png" alt="header_logo">
+</div>
 
 Primero descargamos el repositorio y entramos en la carpeta 42env del repositorio clonado.
 ```bash
 git clone https://github.com/4ndymcfly/42env.git ; cd 42env
 ```
-Ahora asignaremos permisos de ejecución al script y lo ejecutaremos. Se recomienda tener siempre maximizada la ventana de la shell.
+Ahora, asigna permisos de ejecución al script y ejecútalo. Se recomienda tener siempre maximizada la ventana de la shell.
 ```bash
 chmod +x 42env.sh ; ./42env.sh
 ```
-|<img src=img/002_install_log.png alt="header_logo" align="center">|
-|---|
+<div align="center">
+  <img src="img/002_install_log.png" alt="install_log">
+</div>
 
-#### Al ejecutar el script te pedirá tu usuario de la intra, escríbelo y pulsa `Enter`. Este usuario se usará para configurar el header de C.
+## Durante la ejecución
 
-Una vez que haya terminado todo el proceso. Pulsaremos la tecla `Enter` y se reiniciará el equipo.
-Una vez arrancado el sistema pulsaremos en el nuevo icono de 'kitty', maximizaremos la ventana y ejecutaremos 'nvim'.
+Al ejecutar el script, te pedirá tu usuario de la intra; escríbelo y pulsa Enter. Este usuario se usará para configurar el header de C.
+
+Una vez que haya terminado todo el proceso, pulsa la tecla Enter y se reiniciará el equipo.
+
+Después de arrancar el sistema, pulsa en el nuevo icono de kitty, maximiza la ventana y ejecuta nvim.
 ```bash
 nvim
 ```
 
-Si no pulsamos con el ratón en la ventana de instalación, puede que el instalador nos pida que pulsemos una tecla. Si es tu caso pulsa la tecla `espacio`, la configuración continuará y acabará cuando nos solicite que pulsemos `enter`.
+Si no pulsas con el ratón en la ventana de instalación, puede que el instalador te pida que pulses una tecla. Si es tu caso, pulsa la tecla `espacio`. La configuración continuará y finalizará cuando te solicite que pulses `enter`.
 
-|<img src=img/004_lazyvim_install.png alt="header_logo" align="center" width="500">|<img src=img/005_lazyvim_install_2.png alt="header_logo" align="center" width="500">|
-|---|---|
+<div align="center">
+  <img src="img/004_lazyvim_install.png" alt="lazyvim_install">
+  <img src="img/005_lazyvim_install_2.png" alt="lazyvim_install_2">
+</div>
 
-Esperamos unos instantes y ya tenemos LazyVim preparado y con todo configurado para comenzar.
+Espera unos instantes y ya tendrás LazyVim preparado y configurado para comenzar.
 
-|<img src=img/006_lazyvim_install_3.png alt="header_logo" align="center">|
-|---|
+<div align="center">
+  <img src="img/006_lazyvim_install_3.png" alt="lazyvim_install_3">
+</div>
 
-Pulsamos `F4` y cerramos nvim (ya tenemos el acceso de teclado configurado).
+Pulsa `F4` para cerrar nvim (ya tienes el acceso de teclado configurado).
 
 ## LazyVim
 
-Si ejecutas `nvim` solamente, sin ningun nombre de archivo, accederás al menu principal de `LazyVim` que te permitirá realizar muchas acciones.
+Si ejecutas `nvim` sin ningún nombre de archivo, accederás al menú principal de `LazyVim`, que te permitirá realizar muchas acciones.
 
 <img src=img/007_lazyvim_install_4_end.png alt="header_logo" align="center">
 
 <img src=img/020_nvim_recent_files.png alt="header_logo" align="center">
 
-# Uso básico de LazyVim
+## Uso básico de LazyVim
 
-En LazyVim tenemos definidas 6 teclas principales para el uso diario:
+En LazyVim tenemos definidas seis teclas principales para el uso diario:
 
-#### Tecla `F1` > Inserta el header de 42, hace un retorno de carro y pone el editor en modo `Insert`
-<img src=img/008_header_42.png alt="header_logo" align="center">
+**Tecla `F1`:** Inserta el header de 42, hace un retorno de carro y pone el editor en modo `Insert`.
 
-#### Tecla `F2` > Formatea el código para presentarla a la norminette
-|<img src=img/010_example_code.png alt="header_logo" align="center" width="500">|<img src=img/012_fix_errors.png alt="header_logo" align="center" width="600">|
-|---|---|
+<div align="center">
+  <img src="img/008_header_42.png" alt="header_42">
+</div>
 
-#### Tecla `F3` > Ejecuta norminette con las flags `-R CheckForbiddenSourceHeader`
-<img src=img/011_errors_norminette.png alt="header_logo" align="center">
+<br>
 
-#### Tecla `F4` > Cierra la ventana activa / norminette / Cierra 'nvim' / Equivale a `:q`
-|<img src=img/013_norminette_ok.png alt="header_logo" align="center" width="600">|<img src=img/012_fix_errors.png alt="header_logo" align="center" width="600">|
-|---|---|
+**Tecla `F2`:** Formatea el código para presentarlo a la `norminette`.
 
-#### Tecla `F5` > Guarda el documento activo / Equivale a `:w`
+<div align="center">
+  <img src="img/010_example_code.png" alt="example_code">
+  <img src="img/012_fix_errors.png" alt="fix_errors">
+</div>
 
-#### Tecla `F6` > Abre-Cierra el explorador de archivos
-<img src=img/014_nvim_explorer.png alt="header_logo" align="center">
+<br>
 
-#### Cada archivo que se abra lo hará en pestañas distintas, de este modo podremos tener varios archivos abiertos e ir cambianddo entre ellos de una manera muy cómoda.
+**Tecla `F3`:** Ejecuta `norminette` con las flags `-R CheckForbiddenSourceHeader`.
 
-|Todos los demás atajos de `vim` funcionan igual.|
-|---|
+<div align="center">
+  <img src="img/011_errors_norminette.png" alt="errors_norminette">
+</div>
+
+<br>
+
+**Tecla `F4`:** Cierra la ventana activa / `norminette` / Cierra `nvim` / Equivale a `:q`.
+
+<div align="center">
+  <img src="img/013_norminette_ok.png" alt="norminette_ok">
+  <img src="img/012_fix_errors.png" alt="fix_errors">
+</div>
+
+<br>
+
+**Tecla `F5`:** Guarda el documento activo / Equivale a `:w`.
+
+**Tecla `F6`:** Abre o cierra el explorador de archivos.
+
+<div align="center">
+  <img src="img/014_nvim_explorer.png" alt="nvim_explorer">
+</div>
+
+<br>
+
+Cada archivo que se abra lo hará en pestañas distintas, lo que permite tener varios archivos abiertos y cambiar entre ellos de manera cómoda.
+
+> **Nota:** Todos los demás atajos de `vim` funcionan igual.
 
 ## Extras
 
 # LSD (LSDeluxe)
-La configuración incluye la instalación de LSD ya que considero que le da un plus y mayor legibilidad a la terminal aprovechando que hemos instalado las Nerd Fonts.
+La configuración incluye la instalación de LSD, ya que mejora la legibilidad en la terminal aprovechando las Nerd Fonts instaladas.
+
 El alias `ll` equivale a:
 ```bash
 /usr/bin/lsd -lha --group-dirs=first
 ```
-<img src=img/018_lsd_example.png alt="header_logo" align="center">
+<div align="center">
+  <img src="img/018_lsd_example.png" alt="lsd_example">
+</div>
 
-Si por más comodidad queremos ver los permisos de los archivos y carpetas en octal lo haremos con `llo` que es un alias de:
+Para ver los permisos de los archivos y carpetas en octal, usa llo, que es un alias de:
 ```bash
 /usr/bin/lsd -lha --group-dirs=first --permission octal
 ```
-<img src=img/019_lsd_example_octal.png alt="header_logo" align="center">
-
-# LazyGit
-Lazygit es ideal para quienes prefieren usar la terminal pero quieren una forma más cómoda y rápida de manejar Git sin tener que escribir todos los comandos manualmente. Resulta especialmente útil para desarrolladores que trabajan con repositorios grandes y complejos, ya que facilita la visualización de los cambios y permite moverse ágilmente entre las distintas secciones del repositorio.
-#### ¡Por probarlo no pierdes nada!
-<img src=img/021_lazy_git.png alt="header_logo" align="center">
-
-## Terminal
-
-# Kitty
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/57ab74e0-e41a-45fe-b677-cb2799135ff4" alt="Kitty Logo" width="500"/>
+  <img src="img/019_lsd_example_octal.png" alt="lsd_example_octal">
 </div>
 
-Kitty es una excelente opción si buscas un emulador de terminal que combine velocidad, personalización y funcionalidad avanzada, ideal para usuarios que desean aprovechar al máximo su entorno de trabajo en la terminal. Permite dividir la pantalla en varias terminales dentro de una misma ventana, facilitando la multitarea sin necesidad de usar múltiples ventanas. Kitty es un proyecto de código abierto con un desarrollo activo, lo que significa que recibe actualizaciones frecuentes y mejoras continuas.
+# LazyGit
+LazyGit es ideal para quienes prefieren usar la terminal pero quieren una forma más cómoda y rápida de manejar Git sin tener que escribir todos los comandos manualmente. Resulta especialmente útil para desarrolladores que trabajan con repositorios grandes y complejos, ya que facilita la visualización de los cambios y permite moverse ágilmente entre las distintas secciones del repositorio.
 
-## Atajos principales de teclado:
+> ¡Por probarlo no pierdes nada!
+
+<div align="center">
+  <img src="img/021_lazy_git.png" alt="lazy_git">
+</div>
+
+# Kitty-Terminal
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/57ab74e0-e41a-45fe-b677-cb2799135ff4" alt="Kitty Logo" width="500">
+</div>
+
+Kitty es una excelente opción si buscas un emulador de terminal que combine velocidad, personalización y funcionalidad avanzada. Es ideal para usuarios que desean aprovechar al máximo su entorno de trabajo en la terminal. Kitty permite dividir la pantalla en varias terminales dentro de una misma ventana, facilitando la multitarea sin necesidad de usar múltiples ventanas.
+
+Kitty es un proyecto de código abierto con un desarrollo activo, lo que significa que recibe actualizaciones frecuentes y mejoras continuas.
+
+### Atajos principales de teclado:
 
 | Atajo | Descripción |
 | --- | --- |
@@ -159,18 +220,33 @@ Kitty es una excelente opción si buscas un emulador de terminal que combine vel
 
 ### Imágenes de ejemplo:
 
-<img src=img/017_kitty_example_01.png alt="header_logo" align="center">
+<div align="center">
+  <img src="img/017_kitty_example_01.png" alt="kitty_example">
+</div>
 
 ### Soporte para imágenes y gráficos:
-Kitty puede mostrar imágenes directamente en la terminal, lo que es útil para tareas que requieren visualización gráfica sin salir del entorno de línea de comandos. el alias creado es `picture`.
+Kitty admite el uso de gráficos y secuencias de escape, lo que permite mostrar imágenes de manera nativa dentro de la ventana.
+
+Para usar esta funcionalidad, simplemente usa el comando:
 ```bash
 picture imagen.jpg
 ```
-### Pestañas:
-<img src=img/017_kitty_example_02.png alt="header_logo" align="center">
 
-# Y en proceso...
-Próximamente intentaré publicar el proyecto con un configuracion alternativa para su ejecución en usuarios con permisos limitados. Toda mejora es bienvenida.
-#### Gracias!
+`picture`es una alias de:
+```bash
+kitty +kitten icat
+```
+
+### Pestañas:
+Kitty permite el uso de pestañas dentro de una misma ventana, facilitando la organización del trabajo en múltiples sesiones de terminal. Con las pestañas, puedes mantener varios procesos o archivos abiertos simultáneamente y cambiar entre ellos de forma rápida y eficiente, sin necesidad de abrir nuevas ventanas. Esto optimiza el espacio en pantalla y mejora la productividad al trabajar en entornos de línea de comandos.
+
+<div align="center">
+  <img src="img/017_kitty_example_02.png" alt="kitty_example_02">
+</div>
+
+# En proceso...
+Próximamente intentaré publicar el proyecto con un configuracion alternativa para su ejecución en usuarios con permisos limitados. Toda mejora es bienvenida. Si te ha gustado y te ha resultado práctico, no olvides darme una estrella.
+
+### Gracias!
 
 
