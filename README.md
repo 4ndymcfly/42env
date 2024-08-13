@@ -16,16 +16,17 @@ Testeado en [Ubuntu 22.04 LTS](https://releases.ubuntu.com/jammy/)
 3. [Instalación](#instalación)
 4. [Durante la ejecución](#durante-la-ejecución)
 5. [LazyVim](#lazyvim)
-6. [Uso básico de LazyVim](#uso-básico-de-lazyvim)
-7. [Extras](#extras)
+    - [Uso básico de LazyVim](#uso-básico-de-lazyvim)
+    - [Pestañas en LazyVim](#pestañas-en-lazyvim)
+6. [Extras](#extras)
     - [LSD (LSDeluxe)](#lsd-lsdeluxe)
     - [LazyGit](#lazygit)
-8. [Kitty-Terminal](#kitty-terminal)
+7. [Kitty-Terminal](#kitty-terminal)
     - [Atajos principales de teclado](#atajos-principales-de-teclado)
     - [Imágenes de ejemplo](#imágenes-de-ejemplo)
     - [Soporte para imágenes y gráficos](#soporte-para-imágenes-y-gráficos)
     - [Pestañas](#pestañas)
-9. [En proceso...](#en-proceso)
+8. [En proceso...](#en-proceso)
 
 ## Software
 
@@ -103,7 +104,7 @@ Pulsa `F4` para cerrar nvim (ya tienes el acceso de teclado configurado).
 
 <br>
 
-## LazyVim
+# LazyVim
 
 Si ejecutas `nvim` sin ningún nombre de archivo, accederás al menú principal de `LazyVim`, que te permitirá realizar muchas acciones.
 
@@ -162,7 +163,20 @@ En LazyVim tenemos definidas seis teclas principales para el uso diario:
 
 <br>
 
-Cada archivo que se abra lo hará en pestañas distintas, lo que permite tener varios archivos abiertos y cambiar entre ellos de manera cómoda.
+## Pestañas en LazyVim
+Cada archivo que se abra lo hará en pestañas distintas, lo que permite tener varios archivos abiertos y cambiar entre ellos de manera cómoda. También te indica si el archivo que estás editando no tiene salvados los cambios avisándote si intentas cerrar la pestaña.
+
+<div align="center">
+  <img src="img/015_nvim_tabs.png" alt="nvim_explorer">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="img/016_nvim_save_alert.png" alt="nvim_explorer">
+</div>
+
+<br> 
 
 > **Nota:** Todos los demás atajos de `vim` funcionan igual.
 
