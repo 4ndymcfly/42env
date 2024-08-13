@@ -208,14 +208,7 @@ mv ~/.config/nvim{,.bak} > /dev/null 2>&1
 mv ~/.local/share/nvim{,.bak} > /dev/null 2>&1
 mv ~/.local/state/nvim{,.bak} > /dev/null 2>&1
 mv ~/.cache/nvim{,.bak} > /dev/null 2>&1
-
-# Descarga de diccionarios para Neovim
-mkdir -p ~/.config/nvim/spell > /dev/null 2>&1
-wget -O ~/.config/nvim/spell/es.utf-8.spl ftp://ftp.vim.org/pub/vim/runtime/spell/es.utf-8.spl > /dev/null 2>&1
-wget -O ~/.config/nvim/spell/es.utf-8.sug ftp://ftp.vim.org/pub/vim/runtime/spell/es.utf-8.sug > /dev/null 2>&1
-wget -O ~/.config/nvim/spell/en.utf-8.spl ftp://ftp.vim.org/pub/vim/runtime/spell/en.utf-8.spl > /dev/null 2>&1
-wget -O ~/.config/nvim/spell/en.utf-8.sug ftp://ftp.vim.org/pub/vim/runtime/spell/en.utf-8.sug > /dev/null 2>&1
-sleep 1
+sleep 2
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim > /dev/null 2>&1
 rm -rf ~/.config/nvim/.git > /dev/null 2>&1
