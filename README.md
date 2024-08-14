@@ -116,7 +116,7 @@ Si ejecutas `nvim` sin ningún nombre de archivo, accederás al menú principal 
 
 En LazyVim tenemos definidas seis teclas principales para el uso diario:
 
-**Tecla `F1`:** Inserta el header de 42, hace un retorno de carro y pone el editor en modo `Insert`.
+**Tecla `F1`:** Inserta el header de 42, hace un salto de línea y pone el editor en modo `Insert`.
 
 <div align="center">
   <img src="img/008_header_42.png" alt="header_42">
