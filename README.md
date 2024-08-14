@@ -5,8 +5,6 @@
   </a>
 </p>
 
-<br>
-
 <div align="center">
   <img src="img/42_env_banner.png" alt="header_logo">
 </div>
