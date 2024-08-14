@@ -89,17 +89,13 @@ Si no pulsas con el ratón en la ventana de instalación, puede que el instalado
 <div align="center">
   <img src="img/005_lazyvim_install_2.png" alt="lazyvim_install_2">
 </div>
-
 <br>
-
 Espera unos instantes y ya tendrás LazyVim preparado y configurado para comenzar.
 
 <div align="center">
   <img src="img/006_lazyvim_install_3.png" alt="lazyvim_install_3">
 </div>
-
 <br>
-
 Pulsa `F4` para cerrar nvim (ya tienes el acceso de teclado configurado).
 
 <br>
@@ -261,6 +257,7 @@ Para usar esta funcionalidad, simplemente usa el comando:
 ```bash
 picture imagen.jpg
 ```
+
 <br>
 
 `picture`es una alias de:
