@@ -10,7 +10,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=20000
 
-# ALIAS
+# ALIAS 42env
 alias ll='/usr/bin/lsd -lha --group-dirs=first'
 alias llo='/usr/bin/lsd -lha --group-dirs=first --permission octal'
 alias ls='/usr/bin/lsd --group-dirs=first'
