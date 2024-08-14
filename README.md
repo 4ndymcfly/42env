@@ -114,7 +114,7 @@ Si ejecutas `nvim` sin ningún nombre de archivo, accederás al menú principal 
 
 ## Uso básico de LazyVim
 
-En LazyVim tenemos definidas seis teclas principales para el uso diario:
+En LazyVim tenemos definidas seis teclas principales para el uso diario que funcionan solo en el modo NORMAL:
 
 **Tecla `F1`:** Inserta el header de 42, hace un salto de línea y pone el editor en modo `Insert`.
 
