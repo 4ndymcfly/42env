@@ -15,6 +15,8 @@
 
 <p align="center">Testeado en <a href="https://releases.ubuntu.com/jammy/">Ubuntu 22.04 LTS</a></p>
 
+<br>
+
 <!-- Índice -->
 # Índice
 
