@@ -88,6 +88,7 @@ check_and_install "zsh" "zsh"
 check_and_install "rg" "ripgrep"
 check_and_install "fdfind" "fd-find"
 check_and_install "luarocks" "luarocks"
+check_and_install "xclip" "xclip"
 
 #Instalaciones opcionales
 #check_and_install "pipx" "pipx"
