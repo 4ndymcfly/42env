@@ -187,7 +187,8 @@ Cada archivo que se abra lo hará en pestañas distintas, lo que permite tener v
 
 <br> 
 
-> **Nota:** Todos los demás atajos de `vim` funcionan igual.
+> [!NOTE]
+> Todos los demás atajos de `vim` funcionan igual.
 
 ## Extras
 
