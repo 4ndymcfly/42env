@@ -100,7 +100,10 @@ Si no pulsas con el ratón en la ventana de instalación, puede que el instalado
   <img src="img/005_lazyvim_install_2.png" alt="lazyvim_install_2">
 </div>
 <br>
+
 Espera unos instantes y ya tendrás LazyVim preparado y configurado para comenzar.
+
+<br>
 
 <div align="center">
   <img src="img/006_lazyvim_install_3.png" alt="lazyvim_install_3">
